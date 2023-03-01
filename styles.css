@@ -1,6 +1,22 @@
+body {
+    margin: 0;
+    
+}
+
+
+
+
+
 .header {
     background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    margin: 0;
+    align-items: center;
 }
+
+
 
 .logo {
     font-size: 24px;
@@ -13,8 +29,40 @@ ul {
 
 a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 30px;
     color: #e5e7eb;
+}
+
+li{
+    display: inline-block;
+}
+
+
+.fa {
+    padding: 5px;
+    
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+  }
+ 
+  .fa-spotify {
+    
+    color: #1ed761;
+  }
+
+  .fa-soundcloud {
+    color: #ff7f34;
+   
+  }
+
+  .fa-twitter {
+    color: #1da1f2;
+  }
+
+
+.fill {
+    
 }
 
 .big {
@@ -26,6 +74,7 @@ a {
 .small {
     font-size: 18px;
     color: #e5e7eb;
+    max-width: 1000px;
 }
 
 button {
@@ -39,15 +88,27 @@ button {
     font-size: 36px;
     color: #1f2937;
     font-weight: bolder;
+    text-align: center;
 }
 
 
 
 .body1 {
     background-color: #1f2937;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
 }
 
 .body2 {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+
+.song {
+    max-width: 300px;
 
 }
 
@@ -55,11 +116,16 @@ button {
     background-color: #e5e7eb;
     color: #1f2937;
     font-style: italic;
+   text-align: center;
+   padding: 30px;
 }
 
 .body4 {
     background-color: #3882f6;
     font-size: 36px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
 }
 
 .top {
@@ -77,4 +143,7 @@ button {
     background-color: #1f2937;
     font-size: 18px;
     color: #e5e7eb;
+    text-align: center;
+   padding: 20px;
+
 }
